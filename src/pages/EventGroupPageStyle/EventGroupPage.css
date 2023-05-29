@@ -1,0 +1,13 @@
+.eventGroupPage{
+    justify-content: center;
+    
+}
+.eventGroupMain{
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.paginationGrid{
+    justify-content: center;
+    margin-bottom: 10px;
+    display: grid;
+}

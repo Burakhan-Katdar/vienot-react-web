@@ -1,0 +1,176 @@
+/*FOR DESKTOP*/
+.desktopEventDetailPage {
+    margin-top: 25px;
+    min-height: 550;
+    max-height: 1000;
+}
+
+.desktopEventHeader {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.d-CompetitionPhoto {
+    height: 50vh;
+    width: 60vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 40px 40px;
+    justify-content: space-between;
+    color: white;
+    border: 2px solid;
+}
+
+.d-AttendersPhoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: white;
+    margin-right: 1vw;
+    float: right;
+}
+
+.d-AttendersTitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.d-Conditions {
+    border: 2px solid #ccc;
+    border-radius: 45px;
+    min-width: 10%;
+    min-height: 50vh;
+    margin-bottom: 50vh;
+
+}
+
+.d-LoginToAttend {
+    background: linear-gradient(to right, #7648FB, #1A8CE8);
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 20px;
+    z-index: 3;
+    padding: 10px;
+
+}
+
+.d-CompetitionConditions {
+    align-items: center;
+    justify-content: space-between;
+    
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+
+}
+
+.d-CompetitionConditionsButton {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+    justify-content: space-between;
+    color: black;
+    border: 1px solid #c1c1c1;
+}
+
+
+/*FOR MOBILE*/
+.mobileEventDetailPage {
+    margin-top: 25px;
+    min-height: 550;
+    max-height: 1700;
+}
+
+.mobileEventHeader {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.m-CompetitionPhoto {
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 40px 40px;
+    justify-content: space-between;
+    color: white;
+    border: 2px solid;
+}
+
+.m-AttendersPhoto {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: white;
+    margin-right: 1vw;
+    float: right;
+}
+
+.m-Conditions {
+    border: 2px solid #ccc;
+    border-radius: 45px;
+    min-width: 10%;
+    min-height: 50vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.m-LoginToAttend {
+    background: linear-gradient(to right, #7648FB, #1A8CE8);
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 20px;
+    z-index: 3;
+    padding: 10px;
+}
+
+.m-CompetitionConditions {
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+
+}
+
+.m-CompetitionConditionsButton {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+    justify-content: space-between;
+    color: black;
+    border: 1px solid #c1c1c1;
+}
+
+/*FOR TABLET*/
+
+.tabletEventDetailPage{
+    margin-top: 25px;
+    min-height: 550;
+    max-height: 1700;
+}
+.tabletEventHeader{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.t-CompetitionPhoto{
+    height: 400px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 40px 40px;
+    justify-content: space-between;
+    color: white;
+    border: 2px solid;
+}

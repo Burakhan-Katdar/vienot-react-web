@@ -1,0 +1,104 @@
+
+/*-- YENİ FONT NASIL EKLENİR??
+
+  --Link ile Import Etme--
+  1- Fontun linki ilgili CSS dosyasına '@import url('xx')' şeklinde xx yazan yere link olacak şekilde eklenir 
+  2- Daha sonrasında fontun değişmesini istediğiniz element, class, id vb. içine 'font-family: "Font İsmi", Türü;' şeklinde 
+    yazılır. Bu sayede fontu değiştirebilirsiniz.
+  3- Eğer fontun tüm proje içinde etki etmesini istiyorsanız aşağıdaki kodu kullanın;
+    
+    *{
+      font-family:'Poppins', sans-serif; (kullanmak istediğiniz fontun ismi ve türü)
+    }
+
+
+  --Local'den ekleme--
+  1- Fontu dosya olarak indirin.
+  2- İndirdiğiniz ".ttf" uzantılı dosyayı çalışma yapıtığınız projenin içinde font için açtığınız ilgili klasörün içine ekleyin. 
+    Örneğin: 'src/assets/Fonts'.
+  3- Bu dosyayı ilgili CSS dosyasında kullanabilmek için aşağıdaki kodu kullanın;
+
+    @font-face {
+      font-family: Helvetica; (kullanmak istediğiniz fontun ismi)
+      src: 
+      local('Helvetica'), (kullanmak istediğiniz fontun ismi)
+      url('./assets/Fonts/Helvetica.ttf'); (localde indirdiğiniz dosyayı hangi dosya dizininden çekmek istiyorsanız dizin linki)
+    }
+  
+  4- Ardından fontun değişmesini istediğiniz element, class, id vb. içine 'font-family: "Font İsmi", Türü;' şeklinde 
+    yazıp, fontu değiştirebilirsiniz.
+  5- Eğer fontun tüm proje içinde etki etmesini istiyorsanız aşağıdaki kodu kullanın;
+    
+    *{
+      font-family:'Poppins', sans-serif; (kullanmak istediğiniz fontun ismi ve türü)
+    }
+
+    
+  --Bu iki yöntemden birini kullanarak istediğiniz fontu projenizde kullanabilirsiniz.--
+ 
+*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap'); */
+
+@font-face {
+  font-family: Poppins; 
+  src: 
+  local('Poppins'),
+  url('./assets/Fonts/Poppins-Regular.ttf'); 
+}
+body{
+  font-family:'Poppins', sans-serif;
+}
+
+body, html { width: 100%; height: 100%; }
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/**/
+.slogan{
+  font-family: 'Square Peg', cursive;
+}
+
+a:visited{
+  color: black;
+}
